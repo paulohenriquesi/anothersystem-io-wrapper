@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>paulohenriquesi</Copyright>
+    <Authors>paulohenriquesi</Authors>
+    <Description>A simple System.IO.Wrapper that keeps all the IO stuff you know, but behind interfaces for IFile, IDirectory and IFileSystem.</Description>
+    <PackageLicenseUrl>https://github.com/paulohenriquesi/system-io-wrapper/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/paulohenriquesi/system-io-wrapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/paulohenriquesi/system-io-wrapper</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>netcore systemio</PackageTags>
+  </PropertyGroup>
+
+</Project>
