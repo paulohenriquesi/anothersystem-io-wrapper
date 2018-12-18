@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 
 
-namespace System.IO.Wrapper
+namespace AnotherSystem.IO.Wrapper
 {
     /// <summary>Exposes instance methods for creating, moving, and enumerating through directories and subdirectories. This class cannot be inherited.</summary>
     public abstract class DirectoryInfoBase

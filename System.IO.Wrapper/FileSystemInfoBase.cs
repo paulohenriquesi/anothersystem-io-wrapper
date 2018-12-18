@@ -1,6 +1,8 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.IO;
+using System.Runtime.Serialization;
 
-namespace System.IO.Wrapper
+namespace AnotherSystem.IO.Wrapper
 {
     public abstract class FileSystemInfoBase
     {

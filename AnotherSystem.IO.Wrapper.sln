@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Wrapper", "System.IO.Wrapper\System.IO.Wrapper.csproj", "{84709A42-DB94-4725-801A-C686225CADEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnotherSystem.IO.Wrapper", "System.IO.Wrapper\AnotherSystem.IO.Wrapper.csproj", "{84709A42-DB94-4725-801A-C686225CADEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92221E2A-C274-4D0F-8CF7-F69D449C1AB6}"
 	ProjectSection(SolutionItems) = preProject

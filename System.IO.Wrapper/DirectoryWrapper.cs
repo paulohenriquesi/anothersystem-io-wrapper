@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 
-namespace System.IO.Wrapper
+namespace AnotherSystem.IO.Wrapper
 {
     public class DirectoryWrapper : IDirectory
     {

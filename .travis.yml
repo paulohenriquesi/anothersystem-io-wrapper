@@ -1,5 +1,5 @@
 language: csharp
-solution: System.IO.Wrapper.sln
+solution: AnotherSystem.IO.Wrapper.sln
 mono: none
 dotnet: 2.1.301
 env:
@@ -8,4 +8,4 @@ script:
  - dotnet restore
  - dotnet build -c Release
  - dotnet pack -c Release --no-restore --no-build --include-symbols /p:PackageVersion=$PACKAGE_VERSION
- - dotnet nuget push **/System.IO.Wrapper.$PACKAGE_VERSION.nupkg --api-key $ApiKey -s https://api.nuget.org/v3/index.json
+ - dotnet nuget push **/AnotherSystem.IO.Wrapper.$PACKAGE_VERSION.nupkg --api-key $ApiKey -s https://api.nuget.org/v3/index.json

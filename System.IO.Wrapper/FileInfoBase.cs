@@ -1,4 +1,6 @@
-﻿namespace System.IO.Wrapper
+﻿using System.IO;
+
+namespace AnotherSystem.IO.Wrapper
 {
     public abstract class FileInfoBase
     {

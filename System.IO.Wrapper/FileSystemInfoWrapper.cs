@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 
-namespace System.IO.Wrapper
+namespace AnotherSystem.IO.Wrapper
 {
     public class FileSystemInfoWrapper : FileSystemInfoBase
     {

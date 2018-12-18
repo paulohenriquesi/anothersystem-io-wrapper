@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace System.IO.Wrapper
+namespace AnotherSystem.IO.Wrapper
 {
     /// <summary>Provides methods for the creation, copying, deletion, moving, and opening of a single file, and aids in the creation of <see cref="T:System.IO.FileStream"></see> objects.</summary>
     public interface IFile

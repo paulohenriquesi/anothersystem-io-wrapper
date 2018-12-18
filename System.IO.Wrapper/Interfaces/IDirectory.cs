@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.IO;
 
-namespace System.IO.Wrapper
+namespace AnotherSystem.IO.Wrapper
 {
     /// <summary>Exposes static methods for creating, moving, and enumerating through directories and subdirectories. This class cannot be inherited.</summary>
     public interface IDirectory

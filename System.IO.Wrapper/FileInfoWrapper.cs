@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
-namespace System.IO.Wrapper
+namespace AnotherSystem.IO.Wrapper
 {
     public class FileInfoWrapper : FileInfoBase
     {
