@@ -23,12 +23,14 @@ namespace AnotherSystem.IO.Wrapper
         public override string DirectoryName => _fileInfo.DirectoryName;
 
         public override bool Exists => _fileInfo.Exists;
-        
+
         public override bool IsReadOnly { get => _fileInfo.IsReadOnly; set => _fileInfo.IsReadOnly = value; }
-        
+
         public override long Length => _fileInfo.Length;
 
         public override string Name => _fileInfo.Name;
+
+        public override string FullName => _fileInfo.FullName;
 
         public override StreamWriter AppendText() => _fileInfo.AppendText();
 
@@ -36,15 +38,15 @@ namespace AnotherSystem.IO.Wrapper
 
         public override FileInfoBase CopyTo(string destFileName, bool overwrite) =>
             _fileInfo.CopyTo(destFileName, overwrite).ToWrapper();
-        
+
         public override FileStream Create() => _fileInfo.Create();
-        
+
         public override StreamWriter CreateText() => _fileInfo.CreateText();
-        
+
         public override void Delete() => _fileInfo.Delete();
 
         public override void Decrypt() => _fileInfo.Decrypt();
-        
+
         public override void Encrypt() => _fileInfo.Encrypt();
 
         public override void MoveTo(string destFileName) => _fileInfo.MoveTo(destFileName);
@@ -67,14 +69,16 @@ namespace AnotherSystem.IO.Wrapper
 
         public override FileInfoBase Replace(string destinationFileName, string destinationBackupFileName, bool ignoreMetadataErrors)
             => _fileInfo.Replace(destinationFileName, destinationBackupFileName, ignoreMetadataErrors).ToWrapper();
-        
+
         public override string ToString() => _fileInfo.ToString();
     }
 
     public static class FileInfoWrapperExtensions
     {
         public static FileInfoBase ToWrapper(this FileInfo f) => new FileInfoWrapper(f);
+
         public static FileInfoBase[] ToWrapper(this FileInfo[] fs) => fs.Select(x => new FileInfoWrapper(x)).ToArray();
+
         public static IEnumerable<FileInfoBase> ToWrapper(this IEnumerable<FileInfo> fs) => fs.Select(x => new FileInfoWrapper(x));
     }
 }

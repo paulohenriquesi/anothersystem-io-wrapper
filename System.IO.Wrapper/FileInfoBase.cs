@@ -43,6 +43,10 @@ namespace AnotherSystem.IO.Wrapper
         /// <returns>The name of the file.</returns>
         public abstract string Name { get; }
 
+        /// <summary>Gets the full path of the directory or file.</summary>
+        /// <returns>A string containing the full path.</returns>
+        public abstract string FullName { get; }
+
         /// <summary>Creates a <see cref="T:System.IO.StreamWriter"></see> that appends text to the file represented by this instance of the <see cref="T:System.IO.FileInfo"></see>.</summary>
         /// <returns>A new StreamWriter.</returns>
         public abstract StreamWriter AppendText();
