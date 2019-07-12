@@ -12,8 +12,8 @@
     <RepositoryUrl>https://github.com/paulohenriquesi/system-io-wrapper</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags>netcore systemio</PackageTags>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
   </PropertyGroup>
 
 </Project>
